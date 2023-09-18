@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* GLOBAL CSS */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 125%;
+}
+.desc-white {
+  color: #fff;
+  line-height: 150%;
+  margin: 1.6rem 0;
+}
+
+.btn {
+  padding: 1.8rem 4.5rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #3f56f1;
+  border: 0;
+  outline: 0;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.btn:active {
+  transform: translateY(0.3rem);
+}
+.btn-white {
+  background: #fff;
+}
+.text-center {
+  text-align: center;
+}
+.black {
+  color: #000000 !important;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col-md-4 {
+  flex-basis: 33.33%;
+}
+.box {
+  margin: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0px 0px 20px 0px #00000044;
+  border-radius: 1rem;
+}
+/* Hero Section Style */
+.section-hero {
+  background: url(../img/bg-hero.png);
+  background-position: bottom center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 18rem;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0.5rem;
+}
+.header-logo a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 3rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li::before {
+  position: absolute;
+  bottom: -0.5rem;
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background: #fff;
+  transition: 0.3s;
+}
+nav ul li:hover::before {
+  width: 100%;
+}
+.hero-headings {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+.hero-img {
+  position: absolute;
+  bottom: -15rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+}
+.hero-img img {
+  max-width: 60rem;
+}
