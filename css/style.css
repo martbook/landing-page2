@@ -222,7 +222,7 @@ nav ul li:hover::before {
 
 /* meet section  */
 .meeting-container {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 .left-meet-content h3 {
@@ -293,7 +293,7 @@ ul.meeting-features {
 
 /* second meeting section  */
 .sec-meeting-container {
-  padding: 3rem 0 3rem 0;
+  padding: 5rem 0;
 }
 
 .sec-meeting-container h3 {
@@ -312,7 +312,7 @@ ul.meeting-features {
 /* blog section  */
 
 .blog-section {
-  padding: 3rem 0;
+  padding: 5rem 0;
   text-align: center;
 }
 
@@ -355,7 +355,7 @@ ul.meeting-features {
   margin-bottom: 1rem;
 }
 .bolg-inner {
-  margin: 1rem;
+  margin: 2rem 1rem;
 }
 /* brand-section */
 .brand-section {
@@ -385,7 +385,7 @@ ul.meeting-features {
   outline: 0;
   resize: none;
   border-radius: 1rem;
-  box-shadow: 0rem 0rem 5rem 0rem #0000002a;
+  box-shadow: 0rem 0rem 5rem 0rem #00000031;
   transition: 0.3s;
   padding: 2.5rem 2rem;
 }

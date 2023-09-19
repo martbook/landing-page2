@@ -1,15 +1,24 @@
 @media (max-width: 768px) {
+  .dn-md {
+    display: none;
+  }
+  .toggle-btn {
+    display: block;
+  }
   .col-md-4 {
     flex-basis: 50%;
   }
   .col-md-3 {
     flex-basis: 50%;
   }
+  .col-md-8 {
+    flex-basis: 100%;
+  }
   .section-hero {
     background-size: cover;
   }
   .hero-img {
-    bottom: 8rem;
+    bottom: -8rem;
   }
   .hero-img img {
     width: 85%;
@@ -19,11 +28,17 @@
   }
   .section-more-feature {
     padding: 20rem 0;
-    background-size: 200% 100%;
+    background-size: cover;
+  }
+  .feature-imgs {
+    margin-top: 12rem;
+  }
+  .feature-imgs2 {
+    margin-bottom: 6rem;
   }
   footer {
     padding: 4rem 0;
-    background-size: 120% 100%;
+    background-size: 100% 90%;
   }
   .row-footer {
     padding: 0 3rem;
@@ -37,18 +52,27 @@
   }
   menu {
     position: absolute;
-    top: 5rem;
-    right: 5rem;
+    top: -2rem;
+    right: -2rem;
     width: 30rem;
     padding: 3rem 2rem;
     background: linear-gradient(
       70deg,
-      rgb(36, 77, 223, 0.5),
+      rgb(36, 77, 223, 0.2),
       rgb(30, 190, 231, 0.5)
     );
+    backdrop-filter: blur(5rem);
     border-radius: 1rem;
     z-index: 99;
-    display: none;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  menu.active {
+    top: 5rem;
+    right: 5rem;
+    opacity: 1;
+    visibility: visible;
   }
   .toggle-btn {
     cursor: pointer;
@@ -59,14 +83,34 @@
     border-radius: 4rem;
     margin: 0.5rem;
     background: #fff;
+    transition: 0.3s;
   }
+  .toggle-btn.active .line.first {
+    transform: translateY(0.8rem) rotate(45deg);
+  }
+  .toggle-btn.active .line.third {
+    transform: translateY(-0.76rem) rotate(-45deg);
+  }
+  .toggle-btn .line.second {
+    margin-left: auto;
+  }
+  .toggle-btn.active .line.second {
+    width: 0;
+  }
+
   .form-row {
     flex-direction: column;
     gap: 0;
   }
+  .row-footer {
+    gap: 1.5rem;
+  }
 }
 
 @media (max-width: 568px) {
+  html {
+    font-size: 59%;
+  }
   .col-md-8 {
     flex-basis: 100%;
   }
@@ -79,7 +123,13 @@
   .col-md-3 {
     flex-basis: 100%;
   }
-  .row-footer {
-    gap: 2rem;
+
+  .brand-section,
+  .contact-section,
+  .section-feature,
+  .meeting-container,
+  .sec-meeting-container,
+  .blog-section {
+    padding: 2.5rem 0;
   }
 }
