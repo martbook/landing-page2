@@ -132,4 +132,10 @@
   .blog-section {
     padding: 2.5rem 0;
   }
+  menu.active {
+    top: 10rem;
+    right: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
