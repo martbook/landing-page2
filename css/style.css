@@ -201,6 +201,7 @@ section {
   background-repeat: no-repeat;
   height: 100vh;
   margin-bottom: 18rem;
+  position: relative;
 }
 /* onscroll animation */
 /**Styling scrollable elements*/
