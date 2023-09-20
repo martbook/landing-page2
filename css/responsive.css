@@ -118,7 +118,9 @@
   .toggle-btn.active .line.second {
     width: 0;
   }
-
+  .header-logo a img {
+    width: 5.5rem;
+  }
   .form-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

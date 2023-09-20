@@ -202,6 +202,7 @@ section {
   height: 100vh;
   margin-bottom: 18rem;
   position: relative;
+  overflow: inherit;
 }
 /* onscroll animation */
 /**Styling scrollable elements*/
