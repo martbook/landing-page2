@@ -48,6 +48,14 @@
   header.active .toggle-btn .line {
     background: #000000;
   }
+  header nav ul li a {
+    color: #000000;
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+  header.active nav ul li a {
+    color: #000000;
+  }
   nav ul {
     flex-direction: column;
   }
@@ -59,8 +67,8 @@
     padding: 3rem 2rem;
     background: linear-gradient(
       70deg,
-      rgb(36, 77, 223, 0.2),
-      rgb(30, 190, 231, 0.5)
+      rgb(36, 77, 223, 0.5),
+      rgb(30, 190, 231, 0.7)
     );
     backdrop-filter: blur(5rem);
     border-radius: 1rem;
