@@ -18,13 +18,14 @@
     background-size: cover;
   }
   .hero-img {
-    bottom: -8rem;
+    bottom: -4rem;
   }
   .hero-img img {
     width: 85%;
   }
   .hero-headings {
-    width: 90%;
+    width: 95%;
+    top: 50%;
   }
   .section-more-feature {
     padding: 20rem 0;
@@ -38,14 +39,14 @@
   }
   footer {
     padding: 4rem 0;
-    background-size: 100% 90%;
+    background-size: 130% 90%;
   }
   .row-footer {
     padding: 0 3rem;
   }
   /* responsive navbar */
-  header {
-    align-items: flex-start;
+  header.active .toggle-btn .line {
+    background: #000000;
   }
   nav ul {
     flex-direction: column;
