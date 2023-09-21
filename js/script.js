@@ -78,6 +78,7 @@ $(document).ready(function () {
     items: 5,
     itemsDesktop: [1199, 3],
     itemsDesktopSmall: [979, 3],
-    itemsDesktopSmall: [400, 2],
+    itemsTablet: [600, 2], //2 items between 600 and 0
+    itemsMobile: [500, 2], // itemsMobile disabled - inherit from itemsTablet option
   });
 });
