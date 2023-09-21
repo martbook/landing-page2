@@ -78,5 +78,6 @@ $(document).ready(function () {
     items: 5,
     itemsDesktop: [1199, 3],
     itemsDesktopSmall: [979, 3],
+    itemsDesktopSmall: [400, 2],
   });
 });

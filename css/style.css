@@ -495,9 +495,12 @@ ul.meeting-features {
   border-radius: 0.5rem;
 }
 .feature-imgs .feature-top-img {
+  overflow: hidden;
   position: absolute;
   top: -16%;
   right: 0%;
+  border-radius: 0.5rem;
+  z-index: 999;
 }
 .feature-imgs2 {
   position: relative;
@@ -610,9 +613,11 @@ ul.meeting-features {
 /* brand-section style */
 .brand-section {
   padding: 5rem 0;
+  text-align: center;
 }
 #owl-brand .item a img {
   width: 10rem;
+  margin: auto;
 }
 
 /* contact section style */
@@ -665,6 +670,7 @@ ul.meeting-features {
 .img-fluid {
   max-width: 100%;
   margin: 1rem;
+  border-radius: 0.7rem;
 }
 
 /* tap to top */
