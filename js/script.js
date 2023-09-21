@@ -1,3 +1,4 @@
+// header mobile menu function
 let toggle_btn = document.querySelector(".toggle-btn");
 let menu = document.querySelector("menu");
 
