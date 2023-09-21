@@ -1,3 +1,8 @@
+@media (max-width: 1200px) {
+  .row-footer {
+    padding: 0 5rem;
+  }
+}
 @media (max-width: 768px) {
   .dn-md {
     display: none;
@@ -169,5 +174,18 @@
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+  }
+  .row-footer {
+    padding: 0 1rem;
+  }
+  .section-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/686.jpg);
+  }
+  .hero-img {
+    bottom: 5rem;
+  }
+  .hero-img img {
+    width: 90%;
   }
 }
