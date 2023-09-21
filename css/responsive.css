@@ -188,4 +188,7 @@
   .hero-img img {
     width: 90%;
   }
+  .section-hero {
+    margin-bottom: 4rem;
+  }
 }
