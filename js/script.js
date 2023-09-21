@@ -70,3 +70,13 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => {
   handleScrollAnimation();
 });
+
+// jquary owl carusal sllider
+$(document).ready(function () {
+  $("#owl-brand").owlCarousel({
+    autoPlay: 2000, //Set AutoPlay to 3 seconds
+    items: 5,
+    itemsDesktop: [1199, 3],
+    itemsDesktopSmall: [979, 3],
+  });
+});

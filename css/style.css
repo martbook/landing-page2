@@ -1,5 +1,7 @@
+/* import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
 
+/* reset css */
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,7 @@
   box-sizing: border-box;
 }
 
+/* GLOBAL CSS */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -17,7 +20,6 @@ body {
   font-weight: 500;
 }
 
-/* GLOBAL CSS */
 section {
   overflow: hidden;
 }
@@ -26,7 +28,6 @@ section {
   margin: 0 auto;
   padding: 0 1rem;
 }
-
 .primary {
   color: #2532de;
   font-weight: 700;
@@ -42,8 +43,6 @@ section {
   line-height: 150%;
   margin: 1.6rem 0;
 }
-
-/*  */
 .btn {
   letter-spacing: 0.15rem;
   -webkit-transition: all 0.3s;
@@ -52,7 +51,6 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-
   padding: 2rem 5rem;
   border-radius: 3rem;
   text-decoration: none;
@@ -96,7 +94,6 @@ section {
 .btn:hover:before {
   width: 100%;
 }
-
 .btn:active {
   -webkit-transform: translateY(0.3rem);
   -ms-transform: translateY(0.3rem);
@@ -114,7 +111,6 @@ section {
 .my-4 {
   margin: 4rem 0;
 }
-
 .text-center {
   text-align: center;
 }
@@ -204,20 +200,16 @@ section {
   position: relative;
   overflow: inherit;
 }
-/* onscroll animation */
-/**Styling scrollable elements*/
-
+/* onscroll animation syle*/
 .js-scroll {
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
-
 .js-scroll.scrolled {
   opacity: 1;
 }
-
 .scrolled.fade-in {
   -webkit-animation: fade-in 0.5s ease-in-out both;
   animation: fade-in 0.5s ease-in-out both;
@@ -237,7 +229,7 @@ section {
   -webkit-animation: slide-in-right 0.5s ease-in-out both;
   animation: slide-in-right 0.5s ease-in-out both;
 }
-
+/* css animation */
 @-webkit-keyframes slide-in-left {
   0% {
     -webkit-transform: translateX(-100px);
@@ -334,7 +326,7 @@ section {
   }
 }
 
-/* header */
+/* header  style*/
 .section-hero .container {
   padding: 0;
 }
@@ -436,7 +428,7 @@ nav ul li:hover::before {
   max-width: 60rem;
 }
 
-/* section-feature */
+/* feature section style */
 .section-feature {
   padding: 5rem 0;
 }
@@ -462,7 +454,7 @@ nav ul li:hover::before {
   margin: inherit !important;
 }
 
-/* meet section  */
+/* more feature section style  */
 .meeting-container {
   padding: 6rem 0;
 }
@@ -507,7 +499,6 @@ ul.meeting-features {
   top: -16%;
   right: 0%;
 }
-/* second */
 .feature-imgs2 {
   position: relative;
 }
@@ -533,12 +524,10 @@ ul.meeting-features {
   top: 15%;
   right: 15%;
 }
-
-/* second meeting section  */
+/* secone meet section style */
 .sec-meeting-container {
   padding: 5rem 0;
 }
-
 .sec-meeting-container h3 {
   font-size: 3.6rem;
   line-height: 3.5rem;
@@ -546,19 +535,16 @@ ul.meeting-features {
   font-weight: 700;
   font-family: "Raleway";
 }
-
 .sec-meeting-container p {
   padding: 2rem 0rem 0rem 0rem;
   line-height: 2.7rem;
 }
 
-/* blog section  */
-
+/* blog section style */
 .blog-section {
   padding: 5rem 0;
   text-align: center;
 }
-
 .blog-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -570,7 +556,6 @@ ul.meeting-features {
   padding: 0.5rem 0;
   padding-left: 0.5rem;
 }
-
 .blog-content-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -594,7 +579,6 @@ ul.meeting-features {
   justify-content: start;
   font-size: 1.6rem;
 }
-
 .Blog-footer {
   padding-right: 2rem;
   padding-top: 1rem;
@@ -604,7 +588,6 @@ ul.meeting-features {
   font-weight: 700;
   text-align: left;
 }
-
 .blog-img {
   width: 100%;
   -o-object-fit: cover;
@@ -623,11 +606,16 @@ ul.meeting-features {
   -webkit-box-shadow: 0rem 0rem 5rem 0rem #00000031;
   box-shadow: 0rem 0rem 5rem 0rem #00000031;
 }
-/* brand-section */
+
+/* brand-section style */
 .brand-section {
   padding: 5rem 0;
 }
-/* contact section  */
+#owl-brand .item a img {
+  width: 10rem;
+}
+
+/* contact section style */
 .contact-section {
   padding: 5rem 0;
 }
