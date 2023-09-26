@@ -1,19 +1,17 @@
+/* import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
 
-/* reset css */
+/* CSS Reset */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* GLOBAL CSS */
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
+/* Global CSS */
 body {
+  background: rgb(255, 254, 254);
   font-size: 1.8rem;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -38,7 +36,7 @@ section {
   line-height: 125%;
 }
 .heading-hero {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
 }
 .desc-white {
   color: #fff;
@@ -164,6 +162,7 @@ section {
 .icon-inner {
   width: 6.2rem;
   height: 6.2rem;
+  background: -o-linear-gradient(#244ddf, #1ebee7);
   background: -webkit-gradient(
     linear,
     left top,
@@ -171,7 +170,6 @@ section {
     from(#244ddf),
     to(#1ebee7)
   );
-  background: -o-linear-gradient(#244ddf, #1ebee7);
   background: linear-gradient(#244ddf, #1ebee7);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,6 +366,8 @@ header.active nav ul li a {
   color: #fff;
   font-weight: 800;
   font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .header-logo a img {
