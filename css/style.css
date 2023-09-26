@@ -368,6 +368,7 @@ header.active nav ul li a {
   color: #fff;
   font-weight: 800;
   font-size: 3rem;
+  display: flex;
 }
 .header-logo a img {
   width: 6rem;
