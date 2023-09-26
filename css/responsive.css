@@ -79,7 +79,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  menu {
+  .menu {
     position: absolute;
     top: -2rem;
     right: -2rem;
@@ -97,7 +97,7 @@
     opacity: 0;
     visibility: hidden;
   }
-  menu.active {
+  .menu.active {
     top: 5rem;
     right: 5rem;
     opacity: 1;
@@ -180,7 +180,7 @@
   .blog-section {
     padding: 2.5rem 0;
   }
-  menu.active {
+  .menu.active {
     top: 10rem;
     right: inherit;
     left: 50%;
