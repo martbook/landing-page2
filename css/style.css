@@ -370,7 +370,7 @@ header.active nav ul li a {
   font-size: 3rem;
 }
 .header-logo a img {
-  height: 6rem;
+  width: 6rem;
 }
 nav ul {
   list-style: none;
